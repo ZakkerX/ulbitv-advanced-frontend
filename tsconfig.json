@@ -5,7 +5,7 @@
         "module": "ESNext",
         // target es5 or es6
         "target": "es5",
-        "jsx": "react",
+        "jsx": "react-jsx",
         "allowJs": true,
         "moduleResolution": "node",
         // use imports/exports with commonjs requires
