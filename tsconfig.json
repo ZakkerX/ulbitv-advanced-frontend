@@ -11,7 +11,8 @@
         // use imports/exports with commonjs requires
         "esModuleInterop": true,
         // default imports - "import name" instead of "import * as name"
-        "allowSyntheticDefaultImports": true
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "."
     },
     "ts-node": {
         "compilerOptions": {
