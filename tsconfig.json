@@ -13,6 +13,9 @@
         // default imports - "import name" instead of "import * as name"
         "allowSyntheticDefaultImports": true,
         // "baseUrl": "."
+        "plugins": [
+            { "name": "typescript-plugin-css-modules" }
+        ]
     },
     "ts-node": {
         "compilerOptions": {
