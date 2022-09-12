@@ -12,7 +12,7 @@
         "esModuleInterop": true,
         // default imports - "import name" instead of "import * as name"
         "allowSyntheticDefaultImports": true,
-        "baseUrl": "."
+        // "baseUrl": "."
     },
     "ts-node": {
         "compilerOptions": {
