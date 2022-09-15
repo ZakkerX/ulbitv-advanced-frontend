@@ -13,3 +13,4 @@
 | Theme: context, provider, hook | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/7 |
 | Own classNames realisation | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/8 |
 | Feature-sliced design | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/9 |
+| Migration to FSD architecture | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/10 |
