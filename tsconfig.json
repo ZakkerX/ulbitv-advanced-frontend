@@ -12,7 +12,10 @@
         "esModuleInterop": true,
         // default imports - "import name" instead of "import * as name"
         "allowSyntheticDefaultImports": true,
-        // "baseUrl": "."
+        "baseUrl": ".",
+        "paths": {
+            "*": ["./src/*"]
+        },
         "plugins": [
             { "name": "typescript-plugin-css-modules" }
         ]
