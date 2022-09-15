@@ -11,3 +11,4 @@
 | CSS modules | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/5 |
 | Lazy loading, suspense | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/6 |
 | Theme: context, provider, hook | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/7 |
+| Own classNames realisation | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/8 |
