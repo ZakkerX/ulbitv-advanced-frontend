@@ -26,7 +26,7 @@ export const buildWebpackConfig = (options: BuildOptions): webpack.Configuration
             rules: buildLoaders(options),
         },
         // ./component instead of ./component.tsx
-        resolve: buildResolvers(),   
+        resolve: buildResolvers(options),   
         devtool: isDev ? 'inline-source-map' : undefined,
         devServer: isDev ? buildDevServer(options) : undefined
     }
