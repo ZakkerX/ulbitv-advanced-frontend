@@ -16,3 +16,4 @@
 | Migration to FSD architecture | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/10 |
 | AppRouter, router config | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/11 |
 | Navbar, AppLink, React FC snippet | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/12 |
+| Button, ThemeSwitcher, SVGR, file-loader | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/13 |
