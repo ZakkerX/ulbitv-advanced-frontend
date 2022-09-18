@@ -14,3 +14,4 @@
 | Own classNames realisation | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/8 |
 | Feature-sliced design | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/9 |
 | Migration to FSD architecture | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/10 |
+| AppRouter, router config | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/11 |
