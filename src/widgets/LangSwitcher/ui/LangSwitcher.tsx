@@ -1,0 +1,48 @@
+import { ChangeEvent, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { classNames } from "shared/lib/classNames";
+import { Select, ThemeSelect } from "shared/ui/Select";
+import css from "./LangSwitcher.module.scss";
+
+interface LangSwitcherProps {
+  className?: string;
+}
+
+const options = [
+  {
+    value: "en",
+    children: "🇬🇧",
+  },
+  {
+    value: "ru",
+    children: "🇷🇺",
+  },
+  {
+    value: "ro",
+    children: "🇷🇴",
+  },
+];
+
+export const LangSwitcher = ({ className }: LangSwitcherProps) => {
+  const { t, i18n } = useTranslation();
+
+  const [language, setLanguage] = useState("en");
+
+  const changeLocale = (e: ChangeEvent<HTMLSelectElement>) => {
+    const lang = e.target.value;
+    setLanguage(lang);
+    i18n.changeLanguage(lang);
+  };
+
+  return (
+    <>
+      <Select
+        onChange={changeLocale}
+        defaultValue={language}
+        className={classNames(css.langSwitcher)}
+        theme={ThemeSelect.CLEAR}
+        options={options}
+      />
+    </>
+  );
+};
