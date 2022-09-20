@@ -18,3 +18,4 @@
 | Navbar, AppLink, React FC snippet | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/12 |
 | Button, ThemeSwitcher, SVGR, file-loader | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/13 |
 | Sidebar | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/14 |
+| Localisation, i18n, Select, LanguageSwitcher | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/15 |
