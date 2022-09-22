@@ -6,6 +6,7 @@
     "editor.codeActionsOnSave": {
         "source.removeUnusedImports": true,
         "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true,
     },
     "i18n-ally.localesPaths": [
         "public/locales",
@@ -21,5 +22,10 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "files.trimTrailingWhitespace": true
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.validate": [
+        "scss"
+    ],
 }

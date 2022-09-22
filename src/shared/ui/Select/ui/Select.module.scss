@@ -1,8 +1,11 @@
 .select {
   cursor: pointer;
+
   display: flex;
   align-items: center;
+
   color: var(--inverted-primary-color);
+
   border: 2px solid var(--inverted-primary-color);
   border-radius: 5px;
 }
