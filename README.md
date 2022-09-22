@@ -25,3 +25,4 @@
 | Localisation, i18n, Select, LanguageSwitcher | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/15 |
 | Hot Module Replacement | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/16 |
 | Babel loader, translation extractor | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/17 |
+| ESlint | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/18 |
