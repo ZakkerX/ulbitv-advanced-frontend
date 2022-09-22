@@ -19,3 +19,4 @@
 | Button, ThemeSwitcher, SVGR, file-loader | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/13 |
 | Sidebar | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/14 |
 | Localisation, i18n, Select, LanguageSwitcher | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/15 |
+| Hot Module Replacement | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/16 |
