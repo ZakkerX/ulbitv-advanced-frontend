@@ -1,9 +1,9 @@
-import { SelectHTMLAttributes, FC } from "react";
-import { classNames } from "shared/lib/classNames";
-import css from "./Select.module.scss";
+import { SelectHTMLAttributes, FC } from 'react';
+import { classNames } from 'shared/lib/classNames';
+import css from './Select.module.scss';
 
 export enum ThemeSelect {
-  CLEAR = "clear",
+  CLEAR = 'clear',
 }
 
 interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {

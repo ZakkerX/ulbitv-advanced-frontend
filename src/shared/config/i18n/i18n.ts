@@ -11,6 +11,6 @@ i18next
     fallbackLng: 'en',
     debug: __IS_DEV__ ? true : false,
     interpolation: {
-        escapeValue: false
-    }
+      escapeValue: false,
+    },
   });
