@@ -1,6 +1,10 @@
 # ulbitv-advanced-frontend
 Учебный репо по курсу Тимура Ульби "Продвинутый Frontend. В production на React"
 
+## The current state of the app
+[![Netlify Status](https://api.netlify.com/api/v1/badges/198e0473-6f2a-4066-8d19-c3554c403c59/deploy-status)](https://app.netlify.com/sites/deft-fairy-3c30e1/deploys)
+<br/>Something may not work due to incorrect deploy ✨ [Check it out!](https://632ccbe831f7fa00bc237ba0--deft-fairy-3c30e1.netlify.app/) 
+
 ## Contents
 | Step | PR |
 |--|--|
