@@ -26,3 +26,4 @@
 | Hot Module Replacement | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/16 |
 | Babel loader, translation extractor | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/17 |
 | ESlint | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/18 |
+| Stylelint, i18nex plugin for ESlint | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/19 |
