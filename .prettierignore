@@ -1,0 +1,15 @@
+*.svg
+*.png
+*.json
+*.md
+*.mdx
+
+.editorconfig
+.eslintignore
+.gitignore
+.prettierignore
+.stylelintignore
+
+package.json
+/build
+node_modules
