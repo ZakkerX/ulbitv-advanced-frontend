@@ -38,25 +38,16 @@ export const buildLoaders = ({
     ],
   };
 
-  //   const babelLoader = {
-  //     test: /\.(js|jsx|tsx)$/,
-  //     exclude: /(node_modules|bower_components)/,
-  //     use: {
-  //       loader: "babel-loader",
-  //       options: {
-  //         presets: ["@babel/preset-env"],
-  //         plugins: [
-  //           [
-  //             "i18next-extract",
-  //             {
-  //               locales: ["ru", "en", "ro"],
-  //               keyAsDefaultValue: true,
-  //             },
-  //           ],
-  //         ],
-  //       },
-  //     },
-  //   };
+  const babelLoader = {
+    test: /\.(js|jsx|tsx)$/,
+    exclude: /(node_modules|bower_components)/,
+    use: {
+      loader: 'babel-loader',
+      options: {
+        presets: ['@babel/preset-env'],
+      },
+    },
+  };
 
   const tsLoader = {
     test: /\.tsx?$/,
@@ -64,11 +55,5 @@ export const buildLoaders = ({
     exclude: /node_modules/,
   };
 
-  return [
-    svgLoader,
-    fileLoader,
-    cssLoader,
-    // babelLoader,
-    tsLoader,
-  ];
+  return [svgLoader, fileLoader, cssLoader, babelLoader, tsLoader];
 };
