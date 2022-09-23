@@ -66,6 +66,12 @@
 		"react/jsx-closing-bracket-location": [
 			2,
 			"tag-aligned"
+		],
+		"max-len": [
+			"error",
+			{
+				"ignoreComments": true
+			}
 		]
 	},
 	"plugins": [
@@ -79,7 +85,8 @@
 	],
 	"env": {
 		"browser": true,
-		"es2021": true
+		"es2021": true,
+		"jest": true
 	},
 	"settings": {
 		"react": {
