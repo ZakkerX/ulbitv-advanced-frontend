@@ -28,3 +28,4 @@
 | ESlint | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/18 |
 | Stylelint, i18nex plugin for ESlint | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/19 |
 | Jest, unit tests | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/20 |
+| Loader, page 404 | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/21 |
