@@ -31,4 +31,6 @@
 		"src/shared/config/i18n"
 	],
 	"i18n-ally.keystyle": "nested",
+	"editor.snippetSuggestions": "top",
+	"editor.suggest.snippetsPreventQuickSuggestions": false
 }
