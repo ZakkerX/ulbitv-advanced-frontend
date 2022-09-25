@@ -30,3 +30,4 @@
 | Jest, unit tests | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/20 |
 | Loader, page 404 | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/21 |
 | ErrorBoundary | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/22 |
+| Webpack bundle analyzer | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/23 |
