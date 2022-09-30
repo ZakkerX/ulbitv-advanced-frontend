@@ -4,6 +4,9 @@ import css from './Button.module.scss';
 
 export enum ThemeButton {
   CLEAR = 'clear',
+  OUTLINE = 'outline',
+  FILLED = 'filled',
+  SHADOW = 'shadow',
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

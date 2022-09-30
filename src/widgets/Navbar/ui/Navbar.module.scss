@@ -6,7 +6,8 @@
   height: var(--navbar-height);
   padding: 20px;
 
-  background: var(--inverted-bg-color);
+  background: var(--menu-color);
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 5%);
 }
 
 .links {
@@ -14,4 +15,8 @@
   gap: 15px;
 
   margin-left: auto;
+
+  & > * {
+    text-decoration: none;
+  }
 }

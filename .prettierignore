@@ -9,6 +9,7 @@
 .gitignore
 .prettierignore
 .stylelintignore
+.npmrc
 
 package.json
 /build

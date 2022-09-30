@@ -30,6 +30,6 @@
 		}
 	},
 	"include": [
-		"./config/jest/setupTests.ts"
+		"."
 	]
 }

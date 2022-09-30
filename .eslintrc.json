@@ -14,11 +14,14 @@
 		"plugin:react/recommended",
 		"plugin:react/jsx-runtime",
 		"plugin:react-hooks/recommended",
+		"plugin:jest/recommended",
+		"plugin:jest/style",
 		"plugin:jsx-a11y/recommended",
 		"plugin:import/typescript",
 		"plugin:@typescript-eslint/eslint-recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:i18next/recommended",
+		"plugin:storybook/recommended",
 		"prettier"
 	],
 	"rules": {
@@ -74,9 +77,23 @@
 			}
 		]
 	},
+	"overrides": [
+		{
+			"files": [
+				"*.stories.@(ts|tsx|)",
+				"*Decorator.@(ts|tsx|)"
+			],
+			"rules": {
+				"storybook/default-exports": "off",
+				"import/no-default-export": "off",
+				"react/display-name": "off"
+			}
+		}
+	],
 	"plugins": [
 		"react",
 		"react-hooks",
+		"jest",
 		"jsx-a11y",
 		"import",
 		"i18next",
@@ -86,7 +103,8 @@
 	"env": {
 		"browser": true,
 		"es2021": true,
-		"jest": true
+		"jest": true,
+		"jest/globals": true
 	},
 	"settings": {
 		"react": {

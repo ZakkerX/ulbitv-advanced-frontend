@@ -1,7 +1,6 @@
 import { classNames } from 'shared/lib/classNames';
 import css from './NotFound.module.scss';
 import { useTranslation } from 'react-i18next';
-import eyesGif from 'shared/assets/icons/eyes.gif';
 
 interface NotFoundProps {
   className?: string;
@@ -19,7 +18,6 @@ const NotFound = ({ className }: NotFoundProps) => {
         <br />
         {t('There is nothing here') + '.'}
       </p>
-      <img src={eyesGif} alt="Suspicious" width={'200px'} />
     </div>
   );
 };

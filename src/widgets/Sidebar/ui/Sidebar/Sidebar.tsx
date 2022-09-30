@@ -1,10 +1,9 @@
-import { BugButton } from 'app/providers/ErrorBoundary';
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { classNames } from 'shared/lib/classNames';
-import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
+import { Button, ThemeButton } from 'shared/ui/Button';
 import { LangSwitcher } from 'widgets/LangSwitcher';
 import css from './Sidebar.module.scss';
+import MenuIcon from 'shared/assets/icons/open-menu.svg';
 
 interface SidebarProps {
   className?: string;
@@ -12,7 +11,6 @@ interface SidebarProps {
 
 export const Sidebar = ({ className }: SidebarProps) => {
   const [collapsed, setCollapsed] = useState(false);
-  const { t } = useTranslation();
 
   const onToggle = () => {
     setCollapsed((prev) => !prev);
@@ -25,13 +23,17 @@ export const Sidebar = ({ className }: SidebarProps) => {
         className,
       ])}
     >
-      <button data-testid={'sidebar-toggle'} onClick={onToggle}>
-        {t('Toggle')}
-      </button>
       <div className={css.switchers}>
-        <ThemeSwitcher />
         <LangSwitcher />
-        <BugButton />
+        {/* <BugButton /> */}
+        <Button
+          data-testid={'sidebar-toggle'}
+          theme={ThemeButton.CLEAR}
+          className={css.toggle}
+          onClick={onToggle}
+        >
+          <MenuIcon width={'24px'} />
+        </Button>
       </div>
     </div>
   );

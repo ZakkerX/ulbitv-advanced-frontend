@@ -12,4 +12,5 @@ i18n.use(initReactI18next).init({
   resources: { en: { translations: {} } },
 });
 
+// eslint-disable-next-line import/no-default-export
 export default i18n;
