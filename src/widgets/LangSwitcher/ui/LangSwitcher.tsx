@@ -11,15 +11,15 @@ interface LangSwitcherProps {
 const options = [
   {
     value: 'en',
-    children: '🇬🇧',
+    children: 'EN',
   },
   {
     value: 'ru',
-    children: '🇷🇺',
+    children: 'RU',
   },
   {
     value: 'ro',
-    children: '🇷🇴',
+    children: 'RO',
   },
 ];
 

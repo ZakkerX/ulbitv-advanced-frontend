@@ -8,6 +8,7 @@ export enum ThemeSelect {
 
 interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
   className?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   options: Record<string, any>[];
   theme?: ThemeSelect;
 }

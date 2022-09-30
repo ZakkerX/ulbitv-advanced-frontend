@@ -6,7 +6,21 @@
   --font-size-l: 24px;
   --font-line-l: 32px;
   --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --content-page-gap: 10px;
   --navbar-height: 50px;
   --sidebar-width: 300px;
-  --sidebar-width-collapsed: 70px;
+  --sidebar-width-collapsed: 80px;
+  --gradient: linear-gradient(
+    45deg,
+    hsl(234deg 70% 48%) 0%,
+    hsl(251deg 64% 54%) 11%,
+    hsl(260deg 64% 57%) 22%,
+    hsl(268deg 64% 60%) 33%,
+    hsl(275deg 64% 63%) 44%,
+    hsl(281deg 64% 67%) 56%,
+    hsl(288deg 65% 71%) 67%,
+    hsl(294deg 67% 75%) 78%,
+    hsl(301deg 73% 80%) 89%,
+    hsl(308deg 100% 86%) 100%
+  );
 }

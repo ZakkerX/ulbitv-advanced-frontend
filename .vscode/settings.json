@@ -20,7 +20,7 @@
 	"editor.formatOnSave": true,
 	"eslint.alwaysShowStatus": true,
 	"editor.codeActionsOnSave": {
-		// "source.removeUnusedImports": true,
+		"source.removeUnusedImports": true,
 		"source.fixAll.eslint": true,
 		"source.organizeImports": false,
 		"source.fixAll.stylelint": true,

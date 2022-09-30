@@ -5,6 +5,7 @@ import { classNames } from 'shared/lib/classNames';
 import { Sidebar } from 'widgets/Sidebar';
 import { Suspense } from 'react';
 import { AppRouter } from './providers/router';
+import { ThemeSwitcher } from 'shared/ui/ThemeSwitcher';
 
 export const App = () => {
   const { theme } = useTheme();
@@ -16,6 +17,7 @@ export const App = () => {
         <div className="content-page">
           <Sidebar />
           <AppRouter />
+          <ThemeSwitcher />
         </div>
       </Suspense>
     </div>

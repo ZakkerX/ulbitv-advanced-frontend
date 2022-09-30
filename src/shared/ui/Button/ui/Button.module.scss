@@ -3,13 +3,44 @@
 
   display: flex;
   align-items: center;
+
+  padding: 5px 10px;
 }
 
-.clear {
+@mixin clear {
   margin: 0;
   padding: 0;
+
+  color: var(--font-color);
 
   background: none;
   border: none;
   outline: none;
+}
+
+.clear {
+  @include clear;
+}
+
+.outline {
+  color: var(--font-color);
+
+  background: none;
+  border: 1px solid var(--font-color);
+}
+
+.filled {
+  @include clear;
+  padding: 10px;
+
+  color: white;
+
+  background: var(--gradient);
+}
+
+.shadow {
+  @include clear;
+  padding: 10px;
+
+  box-shadow: 0 3px 10px 0 rgb(0 0 0 / 15%);
 }
