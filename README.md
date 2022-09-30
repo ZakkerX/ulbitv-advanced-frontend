@@ -8,8 +8,8 @@
 ## Contents
 | Step | PR |
 |--|--|
-| Set up webpack | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/1 |
-| Split webpack config | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/2 |
+| Set up Webpack | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/1 |
+| Split Webpack config | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/2 |
 | Configure dev-server | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/3 |
 | React, css-loader | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/4 |
 | CSS modules | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/5 |
@@ -32,3 +32,4 @@
 | ErrorBoundary | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/22 |
 | Webpack bundle analyzer | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/23 |
 | React testing library | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/24 |
+| Set up Storybook | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/25 |
