@@ -33,3 +33,4 @@
 | Webpack bundle analyzer | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/23 |
 | React testing library | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/24 |
 | Set up Storybook | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/25 |
+| Loki & Regression testing | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/26 |
