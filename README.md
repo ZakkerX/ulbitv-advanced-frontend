@@ -34,3 +34,4 @@
 | React testing library | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/24 |
 | Set up Storybook | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/25 |
 | Loki & Regression testing | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/26 |
+| Github Actions | https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/27 <br/> https://github.com/lastmarsch/ulbitv-advanced-frontend/pull/28 |
