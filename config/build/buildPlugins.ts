@@ -21,24 +21,16 @@ export const buildPlugins = ({
     new webpack.DefinePlugin({
       __IS_DEV__: JSON.stringify(isDev),
     }),
-    new BundleAnalyzerPlugin({
-      openAnalyzer: false,
-    }),
-    {
-      apply: (compiler: webpack.Compiler) => {
-        compiler.hooks.done.tap('DonePlugin', () => {
-          console.log('Compile is done !');
-          setTimeout(() => {
-            process.exit(0);
-          });
-        });
-      },
-    },
   ];
 
   if (isDev) {
     plugins.push(new ReactRefreshWebpackPlugin());
     plugins.push(new webpack.HotModuleReplacementPlugin());
+    plugins.push(
+      new BundleAnalyzerPlugin({
+        openAnalyzer: false,
+      })
+    );
   }
 
   return plugins;
