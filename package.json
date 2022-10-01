@@ -14,9 +14,11 @@
     "lint:scss:fix": "stylelint \"**/*.scss\" --fix",
     "lint:prettier": "prettier --check \"**/*.*\"",
     "lint:prettier:fix": "prettier --write \"**/*.*\"",
-    "unit": "jest --config ./config/jest/jest.config.ts",
+    "test:unit": "jest --config ./config/jest/jest.config.ts",
+    "test:ui": "loki test",
+    "test:ui:ok": "loki approve",
     "storybook": "start-storybook -p 6006 -c ./config/storybook",
-    "build-storybook": "build-storybook -c ./config/storybook"
+    "storybook:build": "build-storybook -c ./config/storybook"
   },
   "repository": {
     "type": "git",
@@ -67,12 +69,12 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-storybook": "^0.6.4",
+    "eslint-plugin-storybook": "0.6.4",
     "file-loader": "6.2.0",
     "html-webpack-plugin": "5.5.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "27.5.1",
-    "loki": "^0.30.3",
+    "loki": "0.30.3",
     "mini-css-extract-plugin": "2.5.3",
     "prettier": "2.7.1",
     "react-refresh": "0.14.0",
