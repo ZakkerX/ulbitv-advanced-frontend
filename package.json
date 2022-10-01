@@ -17,6 +17,7 @@
     "test:unit": "jest --config ./config/jest/jest.config.ts",
     "test:ui": "loki test",
     "test:ui:ok": "loki approve",
+    "test:ui:ci": "loki --requireReference --reactUri file:./storybook-static --chromeFlags=\"--headless --no-sandbox\"",
     "storybook": "start-storybook -p 6006 -c ./config/storybook",
     "storybook:build": "build-storybook -c ./config/storybook"
   },
@@ -107,6 +108,7 @@
     "react-router-dom": "6.2.1"
   },
   "loki": {
+    "diffingEngine": "looks-same",
     "configurations": {
       "chrome.laptop": {
         "target": "chrome.app",
