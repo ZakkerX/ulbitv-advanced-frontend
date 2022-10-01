@@ -9,14 +9,3 @@
   background: var(--menu-color);
   box-shadow: 0 0 5px 0 rgb(0 0 0 / 5%);
 }
-
-.links {
-  display: flex;
-  gap: 15px;
-
-  margin-left: auto;
-
-  & > * {
-    text-decoration: none;
-  }
-}

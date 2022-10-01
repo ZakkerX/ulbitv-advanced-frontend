@@ -1,4 +1,4 @@
-import { Button, ThemeButton } from 'shared/ui/Button';
+import { Button, ButtonTheme } from 'shared/ui/Button';
 import BugIcon from 'shared/assets/icons/bug.svg';
 import { useEffect, useState } from 'react';
 
@@ -12,7 +12,7 @@ export const BugButton = () => {
   }, [error]);
 
   return (
-    <Button theme={ThemeButton.CLEAR} onClick={throwError}>
+    <Button theme={ButtonTheme.CLEAR} onClick={throwError}>
       <BugIcon style={{ width: '24px' }} />
     </Button>
   );
