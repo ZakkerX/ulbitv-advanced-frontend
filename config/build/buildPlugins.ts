@@ -24,6 +24,16 @@ export const buildPlugins = ({
     new BundleAnalyzerPlugin({
       openAnalyzer: false,
     }),
+    {
+      apply: (compiler: webpack.Compiler) => {
+        compiler.hooks.done.tap('DonePlugin', () => {
+          console.log('Compile is done !');
+          setTimeout(() => {
+            process.exit(0);
+          });
+        });
+      },
+    },
   ];
 
   if (isDev) {
